@@ -26,7 +26,7 @@ export function Contact() {
       <form onSubmit={handleSubmit}>
         <FormHeading>Contact Form</FormHeading>
         <TextContainer>
-          <Label>Name</Label>
+          <Label>Name: </Label>
           <Input type="text" name="name" placeholder="Name" />
         </TextContainer>
         <TextContainer>
