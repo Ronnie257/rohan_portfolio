@@ -14,10 +14,10 @@ export function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs.sendForm(
-      "service_nqvrcyp",
-      "template_ueu2mam",
+      "service_0cmowef",
+      "template_rwjugq2",
       e.target,
-      "user_GKYbobyIIhgB9oa8GsMC9"
+      "j9-abU1egpsZRM-i1"
     ).then((res) => (<h1> Thanks for connecting</h1>))
       // .catch(err => console.log(err))
   };
