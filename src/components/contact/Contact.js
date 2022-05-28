@@ -18,7 +18,7 @@ export function Contact() {
       "template_rwjugq2",
       e.target,
       "j9-abU1egpsZRM-i1"
-    ).then((res) => (<h1> Thanks for connecting</h1>))
+    ).then((res) => {return (<h1> Thanks for connecting</h1>)})
       // .catch(err => console.log(err))
   };
   return (
